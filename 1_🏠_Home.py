@@ -1,16 +1,16 @@
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
-from streamlit_timeline import timeline
+#from streamlit_lottie import st_lottie
+#from streamlit_timeline import timeline
 import streamlit.components.v1 as components
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
+#from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 from assets.content import *
-from PIL import Image
-import openai
-from langchain.chat_models import ChatOpenAI
-from bs4 import BeautifulSoup
-from streamlit_carousel import carousel
-from st_clickable_images import clickable_images
+#from PIL import Image
+#import openai
+#from langchain.chat_models import ChatOpenAI
+#from bs4 import BeautifulSoup
+#from streamlit_carousel import carousel
+#from st_clickable_images import clickable_images
 from utils.get_content import get_text, get_link, get_info
 from utils.streamlit_utils import lang_toggle
 
